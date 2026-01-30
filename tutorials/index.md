@@ -10,6 +10,7 @@ description: 路线式整理的可复用知识，按阶段系统学习。
 ## 你可以从这里开始
 
 - [工程化实践：我如何搭建/重构一个项目](/tutorials/engineering-practice)
+- [VitePress 搭建个人博客（从 0 到上线）](/tutorials/vitepress-blog-setup)
 - [教程路线：XXX（目录+练习+验收）](/tutorials/xxx-roadmap)
 
 ## 目录

@@ -18,6 +18,7 @@ export default defineConfig({
           items: [
             { text: '索引', link: '/tutorials/' },
             { text: '工程化实践', link: '/tutorials/engineering-practice' },
+            { text: 'VitePress 搭建个人博客', link: '/tutorials/vitepress-blog-setup' },
             { text: '教程路线：XXX', link: '/tutorials/xxx-roadmap' }
           ]
         }
