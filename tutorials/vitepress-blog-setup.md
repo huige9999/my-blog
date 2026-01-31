@@ -1,5 +1,6 @@
 ---
 title: VitePress 搭建个人博客（从 0 到上线）
+date: 2024-03-12
 description: 以 VitePress 为核心，从初始化到 GitHub Pages 自动部署的完整流程。
 ---
 
