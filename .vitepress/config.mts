@@ -32,7 +32,9 @@ export default defineConfig({
         {
           text: '项目',
           items: [
-            { text: '索引', link: '/projects/' }
+            { text: '索引', link: '/projects/' },
+            { text: '重复 key 触发 Vue patch 崩溃：一次前端“假死”排查', link: '/projects/vue-duplicate-key-ui-freeze' },
+            { text: 'repomix-helper：把 repomix 变成 VS Code 一键工作流', link: '/projects/repomix-helper-vscode-workflow' }
           ]
         }
       ],
@@ -48,7 +50,8 @@ export default defineConfig({
         {
           text: '观点',
           items: [
-            { text: '索引', link: '/opinions/' }
+            { text: '索引', link: '/opinions/' },
+            { text: 'AI 时代程序员与 AI 协作的方法论', link: '/opinions/ai-era-dev-ai-collaboration' }
           ]
         }
       ]

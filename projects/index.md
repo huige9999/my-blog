@@ -9,4 +9,5 @@ description: 真实业务的方案、架构决策与复盘记录。
 
 ## 代表作
 
-（待补充）
+- [重复 key 触发 Vue patch 崩溃：一次前端“假死”排查](/projects/vue-duplicate-key-ui-freeze)
+- [repomix-helper：把 repomix 变成 VS Code 一键工作流](/projects/repomix-helper-vscode-workflow)
