@@ -91,7 +91,8 @@ const extractTitleFromContent = (source: string): string | null => {
 const resolveUrl = (filePath: string) => {
   const relativePath = toPosixPath(relative(process.cwd(), filePath))
   const withoutExt = relativePath.replace(/\.md$/, '')
-  return `/${withoutExt.replace(/(^|\/)index$/, '$1')}`
+  const cleanPath = withoutExt.replace(/(^|\/)index$/, '$1')
+  return `/my-blog/${cleanPath.replace(/^\//, '')}`
 }
 
 export default defineLoader({

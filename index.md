@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "huige9999的小窝"
+  name: "汪元会的小窝"
   tagline: "把学到的、做过的、踩过的坑，沉淀成清晰的知识结构。"
 
 features:

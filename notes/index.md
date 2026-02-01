@@ -6,3 +6,5 @@ description: 学习碎片、术语解释、短总结，快速查、快速补。
 # 笔记
 
 这里是零散但高频的知识点，尽量短、清、可检索。
+
+- [用 Worktree 把本地并行开发变简单](/notes/worktree-parallel-development)

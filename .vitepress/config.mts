@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   base: '/my-blog/',
-  title: 'huige9999的小窝',
+  title: '汪元会的小窝',
   description: '长期的技术笔记与项目档案：把学到的、做过的、踩过的坑，沉淀成清晰的知识结构。',
   themeConfig: {
     search: {
@@ -42,7 +42,8 @@ export default defineConfig({
         {
           text: '笔记',
           items: [
-            { text: '索引', link: '/notes/' }
+            { text: '索引', link: '/notes/' },
+            { text: '用 Worktree 把本地并行开发变简单', link: '/notes/worktree-parallel-development' }
           ]
         }
       ],

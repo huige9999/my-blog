@@ -1,6 +1,6 @@
 ---
 title: repomix-helper：把 repomix 变成 VS Code 一键工作流
-date: 2026-01-31
+date: 2025-12-22
 description: 从“每次手敲命令”到一键导出/运行，我如何用 VS Code 插件把 repomix 工作流工具化。
 ---
 
