@@ -43,7 +43,8 @@ export default defineConfig({
           text: '笔记',
           items: [
             { text: '索引', link: '/notes/' },
-            { text: '用 Worktree 把本地并行开发变简单', link: '/notes/worktree-parallel-development' }
+            { text: '用 Worktree 把本地并行开发变简单', link: '/notes/worktree-parallel-development' },
+            { text: 'Claude Code 的项目记忆组织思路', link: '/notes/claude-code-memory-organization' }
           ]
         }
       ],
