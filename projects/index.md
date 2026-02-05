@@ -9,5 +9,6 @@ description: 真实业务的方案、架构决策与复盘记录。
 
 ## 代表作
 
+- [微信 H5 支付踩坑复盘：JSSDK 签名偶发失败与「URL 未注册」拦截](/projects/wechat-h5-pay-jssdk-signature-url-not-registered)
 - [重复 key 触发 Vue patch 崩溃：一次前端“假死”排查](/projects/vue-duplicate-key-ui-freeze)
 - [repomix-helper：把 repomix 变成 VS Code 一键工作流](/projects/repomix-helper-vscode-workflow)

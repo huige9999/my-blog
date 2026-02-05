@@ -33,6 +33,7 @@ export default defineConfig({
           text: '项目',
           items: [
             { text: '索引', link: '/projects/' },
+            { text: '微信 H5 支付踩坑复盘：JSSDK 签名偶发失败与「URL 未注册」拦截', link: '/projects/wechat-h5-pay-jssdk-signature-url-not-registered' },
             { text: '重复 key 触发 Vue patch 崩溃：一次前端“假死”排查', link: '/projects/vue-duplicate-key-ui-freeze' },
             { text: 'repomix-helper：把 repomix 变成 VS Code 一键工作流', link: '/projects/repomix-helper-vscode-workflow' }
           ]
