@@ -23,7 +23,6 @@ export default defineConfig({
           text: '教程',
           items: [
             { text: '索引', link: '/tutorials/' },
-            { text: '自定义脚手架：快速入门', link: '/tutorials/custom-scaffold-quickstart' },
             { text: 'VitePress 搭建个人博客', link: '/tutorials/vitepress-blog-setup' }
           ]
         }
@@ -45,7 +44,8 @@ export default defineConfig({
           items: [
             { text: '索引', link: '/notes/' },
             { text: '用 Worktree 把本地并行开发变简单', link: '/notes/worktree-parallel-development' },
-            { text: 'Claude Code 的项目记忆组织思路', link: '/notes/claude-code-memory-organization' }
+            { text: 'Claude Code 的项目记忆组织思路', link: '/notes/claude-code-memory-organization' },
+            { text: 'Tailscale + RDP 远程公司主机：实战排坑笔记', link: '/notes/tailscale-rdp-remote-host-guide' }
           ]
         }
       ],

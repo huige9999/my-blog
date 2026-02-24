@@ -10,4 +10,3 @@ description: 路线式整理的可复用知识，按阶段系统学习。
 ## 目录
 
 - [VitePress 搭建个人博客（从 0 到上线）](/tutorials/vitepress-blog-setup)
-- [自定义脚手架：快速入门](/tutorials/custom-scaffold-quickstart)
