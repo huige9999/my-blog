@@ -23,7 +23,10 @@ export default defineConfig({
           text: '教程',
           items: [
             { text: '索引', link: '/tutorials/' },
-            { text: 'VitePress 搭建个人博客', link: '/tutorials/vitepress-blog-setup' }
+            { text: 'VitePress 搭建个人博客', link: '/tutorials/vitepress-blog-setup' },
+            { text: 'NestJS 教程 01：快速上手 Nest CLI 与第一个接口', link: '/tutorials/nestjs-tutorial-01-cli-and-first-api' },
+            { text: 'NestJS 教程 02：三层架构与 MVC 的落地', link: '/tutorials/nestjs-tutorial-02-layered-architecture-and-mvc' },
+            { text: 'NestJS 教程 03：IoC 与依赖注入实战', link: '/tutorials/nestjs-tutorial-03-ioc-and-di-in-practice' }
           ]
         }
       ],
