@@ -26,7 +26,11 @@ export default defineConfig({
             { text: 'VitePress 搭建个人博客', link: '/tutorials/vitepress-blog-setup' },
             { text: 'NestJS 教程 01：快速上手 Nest CLI 与第一个接口', link: '/tutorials/nestjs-tutorial-01-cli-and-first-api' },
             { text: 'NestJS 教程 02：三层架构与 MVC 的落地', link: '/tutorials/nestjs-tutorial-02-layered-architecture-and-mvc' },
-            { text: 'NestJS 教程 03：IoC 与依赖注入实战', link: '/tutorials/nestjs-tutorial-03-ioc-and-di-in-practice' }
+            { text: 'NestJS 教程 03：IoC 与依赖注入实战', link: '/tutorials/nestjs-tutorial-03-ioc-and-di-in-practice' },
+            { text: 'NestJS 教程 04：装饰器与参数获取实战', link: '/tutorials/nestjs-tutorial-04-decorators-and-parameter-binding' },
+            { text: 'NestJS 教程 05：模块边界与动态模块', link: '/tutorials/nestjs-tutorial-05-module-boundaries-and-dynamic-modules' },
+            { text: 'NestJS 教程 06：AOP 与装饰器切面实践', link: '/tutorials/nestjs-tutorial-06-aop-with-decorators' },
+            { text: 'NestJS 教程 07：中间件与守卫的职责边界', link: '/tutorials/nestjs-tutorial-07-middleware-and-guards' }
           ]
         }
       ],
