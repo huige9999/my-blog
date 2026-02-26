@@ -30,7 +30,13 @@ export default defineConfig({
             { text: 'NestJS 教程 04：装饰器与参数获取实战', link: '/tutorials/nestjs-tutorial-04-decorators-and-parameter-binding' },
             { text: 'NestJS 教程 05：模块边界与动态模块', link: '/tutorials/nestjs-tutorial-05-module-boundaries-and-dynamic-modules' },
             { text: 'NestJS 教程 06：AOP 与装饰器切面实践', link: '/tutorials/nestjs-tutorial-06-aop-with-decorators' },
-            { text: 'NestJS 教程 07：中间件与守卫的职责边界', link: '/tutorials/nestjs-tutorial-07-middleware-and-guards' }
+            { text: 'NestJS 教程 07：中间件与守卫的职责边界', link: '/tutorials/nestjs-tutorial-07-middleware-and-guards' },
+            { text: 'NestJS 教程 08：拦截器与返回值数据流', link: '/tutorials/nestjs-tutorial-08-interceptors-and-response-streams' },
+            { text: 'NestJS 教程 09：管道与异常过滤器', link: '/tutorials/nestjs-tutorial-09-pipes-and-exception-filters' },
+            { text: 'NestJS 教程 10：适配器模式与平台抽象', link: '/tutorials/nestjs-tutorial-10-adapter-pattern-and-platform-abstraction' },
+            { text: 'NestJS 教程 11：文件上传与 Multer 实战', link: '/tutorials/nestjs-tutorial-11-file-upload-with-multer' },
+            { text: 'NestJS 教程 12：自定义装饰器与元数据', link: '/tutorials/nestjs-tutorial-12-custom-decorators-and-metadata' },
+            { text: 'NestJS 教程 13：MySQL相关回顾', link: '/tutorials/nestjs-tutorial-13-mysql-review' }
           ]
         }
       ],
