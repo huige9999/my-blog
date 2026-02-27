@@ -23,3 +23,5 @@ description: 路线式整理的可复用知识，按阶段系统学习。
 - [NestJS 教程 11：文件上传与 Multer 实战](/tutorials/nestjs-tutorial-11-file-upload-with-multer)
 - [NestJS 教程 12：自定义装饰器与元数据](/tutorials/nestjs-tutorial-12-custom-decorators-and-metadata)
 - [NestJS 教程 13：MySQL相关回顾](/tutorials/nestjs-tutorial-13-mysql-review)
+- [NestJS 教程 14：ORM](/tutorials/nestjs-tutorial-14-orm)
+- [NestJS 教程 15：Redis 缓存实战](/tutorials/nestjs-tutorial-15-redis)

@@ -1,7 +1,7 @@
 ---
 title: NestJS 教程 13：MySQL相关回顾
 date: 2026-03-02
-description: todo
+description: 回顾 MySQL 基础知识，包括使用 Docker 快速安装 MySQL、MySQL Workbench 的基本使用，以及数据库表之间的一对一、一对多、多对多关系的设计与实现
 ---
 ## docker中的快速安装
 

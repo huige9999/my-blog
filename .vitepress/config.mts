@@ -36,7 +36,9 @@ export default defineConfig({
             { text: 'NestJS 教程 10：适配器模式与平台抽象', link: '/tutorials/nestjs-tutorial-10-adapter-pattern-and-platform-abstraction' },
             { text: 'NestJS 教程 11：文件上传与 Multer 实战', link: '/tutorials/nestjs-tutorial-11-file-upload-with-multer' },
             { text: 'NestJS 教程 12：自定义装饰器与元数据', link: '/tutorials/nestjs-tutorial-12-custom-decorators-and-metadata' },
-            { text: 'NestJS 教程 13：MySQL相关回顾', link: '/tutorials/nestjs-tutorial-13-mysql-review' }
+            { text: 'NestJS 教程 13：MySQL相关回顾', link: '/tutorials/nestjs-tutorial-13-mysql-review' },
+            { text: 'NestJS 教程 14：ORM', link: '/tutorials/nestjs-tutorial-14-orm' },
+            { text: 'NestJS 教程 15：Redis 缓存实战', link: '/tutorials/nestjs-tutorial-15-redis' }
           ]
         }
       ],
