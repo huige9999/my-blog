@@ -23,22 +23,41 @@ export default defineConfig({
           text: '教程',
           items: [
             { text: '索引', link: '/tutorials/' },
-            { text: 'VitePress 搭建个人博客', link: '/tutorials/vitepress-blog-setup' },
-            { text: 'NestJS 教程 01：快速上手 Nest CLI 与第一个接口', link: '/tutorials/nestjs-tutorial-01-cli-and-first-api' },
-            { text: 'NestJS 教程 02：三层架构与 MVC 的落地', link: '/tutorials/nestjs-tutorial-02-layered-architecture-and-mvc' },
-            { text: 'NestJS 教程 03：IoC 与依赖注入实战', link: '/tutorials/nestjs-tutorial-03-ioc-and-di-in-practice' },
-            { text: 'NestJS 教程 04：装饰器与参数获取实战', link: '/tutorials/nestjs-tutorial-04-decorators-and-parameter-binding' },
-            { text: 'NestJS 教程 05：模块边界与动态模块', link: '/tutorials/nestjs-tutorial-05-module-boundaries-and-dynamic-modules' },
-            { text: 'NestJS 教程 06：AOP 与装饰器切面实践', link: '/tutorials/nestjs-tutorial-06-aop-with-decorators' },
-            { text: 'NestJS 教程 07：中间件与守卫的职责边界', link: '/tutorials/nestjs-tutorial-07-middleware-and-guards' },
-            { text: 'NestJS 教程 08：拦截器与返回值数据流', link: '/tutorials/nestjs-tutorial-08-interceptors-and-response-streams' },
-            { text: 'NestJS 教程 09：管道与异常过滤器', link: '/tutorials/nestjs-tutorial-09-pipes-and-exception-filters' },
-            { text: 'NestJS 教程 10：适配器模式与平台抽象', link: '/tutorials/nestjs-tutorial-10-adapter-pattern-and-platform-abstraction' },
-            { text: 'NestJS 教程 11：文件上传与 Multer 实战', link: '/tutorials/nestjs-tutorial-11-file-upload-with-multer' },
-            { text: 'NestJS 教程 12：自定义装饰器与元数据', link: '/tutorials/nestjs-tutorial-12-custom-decorators-and-metadata' },
-            { text: 'NestJS 教程 13：MySQL相关回顾', link: '/tutorials/nestjs-tutorial-13-mysql-review' },
-            { text: 'NestJS 教程 14：ORM', link: '/tutorials/nestjs-tutorial-14-orm' },
-            { text: 'NestJS 教程 15：Redis 缓存实战', link: '/tutorials/nestjs-tutorial-15-redis' }
+            {
+              text: 'VitePress 系列',
+              collapsed: true,
+              items: [
+                { text: 'VitePress 搭建个人博客', link: '/tutorials/vitepress-blog-setup' }
+              ]
+            },
+            {
+              text: 'NestJS 系列',
+              collapsed: true,
+              items: [
+                { text: 'NestJS 教程 01：快速上手 Nest CLI 与第一个接口', link: '/tutorials/nestjs/nestjs-tutorial-01-cli-and-first-api' },
+                { text: 'NestJS 教程 02：三层架构与 MVC 的落地', link: '/tutorials/nestjs/nestjs-tutorial-02-layered-architecture-and-mvc' },
+                { text: 'NestJS 教程 03：IoC 与依赖注入实战', link: '/tutorials/nestjs/nestjs-tutorial-03-ioc-and-di-in-practice' },
+                { text: 'NestJS 教程 04：装饰器与参数获取实战', link: '/tutorials/nestjs/nestjs-tutorial-04-decorators-and-parameter-binding' },
+                { text: 'NestJS 教程 05：模块边界与动态模块', link: '/tutorials/nestjs/nestjs-tutorial-05-module-boundaries-and-dynamic-modules' },
+                { text: 'NestJS 教程 06：AOP 与装饰器切面实践', link: '/tutorials/nestjs/nestjs-tutorial-06-aop-with-decorators' },
+                { text: 'NestJS 教程 07：中间件与守卫的职责边界', link: '/tutorials/nestjs/nestjs-tutorial-07-middleware-and-guards' },
+                { text: 'NestJS 教程 08：拦截器与返回值数据流', link: '/tutorials/nestjs/nestjs-tutorial-08-interceptors-and-response-streams' },
+                { text: 'NestJS 教程 09：管道与异常过滤器', link: '/tutorials/nestjs/nestjs-tutorial-09-pipes-and-exception-filters' },
+                { text: 'NestJS 教程 10：适配器模式与平台抽象', link: '/tutorials/nestjs/nestjs-tutorial-10-adapter-pattern-and-platform-abstraction' },
+                { text: 'NestJS 教程 11：文件上传与 Multer 实战', link: '/tutorials/nestjs/nestjs-tutorial-11-file-upload-with-multer' },
+                { text: 'NestJS 教程 12：自定义装饰器与元数据', link: '/tutorials/nestjs/nestjs-tutorial-12-custom-decorators-and-metadata' },
+                { text: 'NestJS 教程 13：MySQL相关回顾', link: '/tutorials/nestjs/nestjs-tutorial-13-mysql-review' },
+                { text: 'NestJS 教程 14：ORM', link: '/tutorials/nestjs/nestjs-tutorial-14-orm' },
+                { text: 'NestJS 教程 15：Redis 缓存实战', link: '/tutorials/nestjs/nestjs-tutorial-15-redis' },
+                { text: 'NestJS 教程 16：状态保存方式', link: '/tutorials/nestjs/nestjs-tutorial-16-state-persistence' },
+                { text: 'NestJS 教程 17：JWT 登录注册后端处理', link: '/tutorials/nestjs/nestjs-tutorial-17-jwt-login-and-register' },
+                { text: 'NestJS 教程 18：Passport 与循环引用问题', link: '/tutorials/nestjs/nestjs-tutorial-18-passport-and-circular-dependency' },
+                { text: 'NestJS 教程 19：通过环境变量获取配置信息', link: '/tutorials/nestjs/nestjs-tutorial-19-env-config' },
+                { text: 'NestJS 教程 20：RBAC 权限设计与守卫落地', link: '/tutorials/nestjs/nestjs-tutorial-20-rbac-design-and-guards' },
+                { text: 'NestJS 教程 21：日志体系与 AOP 日志落地', link: '/tutorials/nestjs/nestjs-tutorial-21-logging-and-aop' },
+                { text: 'NestJS 教程 22：GraphQL 快速入门与 Nest 集成', link: '/tutorials/nestjs/nestjs-tutorial-22-graphql-quickstart-and-nest-integration' }
+              ]
+            }
           ]
         }
       ],
