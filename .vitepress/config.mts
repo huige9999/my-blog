@@ -79,7 +79,8 @@ export default defineConfig({
             { text: '索引', link: '/notes/' },
             { text: '用 Worktree 把本地并行开发变简单', link: '/notes/worktree-parallel-development' },
             { text: 'Claude Code 的项目记忆组织思路', link: '/notes/claude-code-memory-organization' },
-            { text: 'Tailscale + RDP 远程公司主机：实战排坑笔记', link: '/notes/tailscale-rdp-remote-host-guide' }
+            { text: 'Tailscale + RDP 远程公司主机：实战排坑笔记', link: '/notes/tailscale-rdp-remote-host-guide' },
+            { text: '前端动画技术全景与选型指南', link: '/notes/frontend-animation-tech-selection' }
           ]
         }
       ],
