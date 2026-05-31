@@ -11,16 +11,16 @@ type RecentPost = {
 }
 
 const SECTION_LABELS: Record<string, string> = {
-  tutorials: '教程',
-  projects: '项目',
-  notes: '笔记',
-  opinions: '观点'
+  'input-notes': '输入笔记',
+  'practical-guides': '实战手册',
+  research: '专题研究',
+  opinions: '观点沉淀'
 }
 
 const WATCH_GLOBS = [
-  '../../tutorials/**/*.md',
-  '../../projects/**/*.md',
-  '../../notes/**/*.md',
+  '../../input-notes/**/*.md',
+  '../../practical-guides/**/*.md',
+  '../../research/**/*.md',
   '../../opinions/**/*.md'
 ]
 

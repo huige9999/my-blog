@@ -3,21 +3,21 @@
 layout: home
 
 hero:
-  name: "汪元会的小窝"
+  name: "汪元会的博客"
   tagline: "把学到的、做过的、踩过的坑，沉淀成清晰的知识结构。"
 
 features:
-  - title: 教程
-    details: 路线式整理，从 0 到能做，强调可复用。
-    link: /tutorials/
-  - title: 项目
-    details: 真实业务的方案、架构决策与复盘（看我怎么做取舍）。
-    link: /projects/
-  - title: 笔记
-    details: 术语 / 碎片 / 小结，快速查、快速补。
-    link: /notes/
-  - title: 观点
-    details: 原则、方法论与思考（我为什么这么做）。
+  - title: 输入笔记
+    details: 看教程、文章、项目时的提取记录。把外部输入转成自己的理解。
+    link: /input-notes/
+  - title: 实战手册
+    details: 可照着操作的技术实践指南。下次我要做同类事情时，可以直接照着走。
+    link: /practical-guides/
+  - title: 专题研究
+    details: 深入钻研某个技术话题的系统性文章。围绕一个问题持续补充，形成自己的判断框架。
+    link: /research/
+  - title: 观点沉淀
+    details: 经过思考后形成的长期判断与方法论。技术判断力 + 职业判断力 + 学习判断力。
     link: /opinions/
 ---
 
